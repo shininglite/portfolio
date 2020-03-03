@@ -63,6 +63,7 @@ hr {
   padding-right: 30px;
   padding-bottom: 20px;
   padding-left: 30px;
+  margin: 0;
 }
 
 /* override bootstrap hover color and border */
@@ -86,7 +87,6 @@ hr {
 }
 
 /* media query for nav background color change */
-@media only screen and (max-width: 767px) {
   .navbar-header {
     background-color: #4aaaa5;
   }
@@ -213,5 +213,32 @@ hr {
 .submit-btn:hover {
   opacity: .7;
 }
+
+/* Put media tags here */
+/* media query for nav background color change */
+@media only screen and (max-width: 640px) {
+  .navbar-header {
+    background-color: #4aaaa5;
+  }
+  #logo {
+    width: 100%;
+  }
+  .navbar {
+    padding: 0;
+
+
+  }
+  #nav-container{
+    margin-left: 0;
+  }
+  .container {
+    max-width: 100%;
+  }
+}
+
+
+/* @media only screen and (max-width: 767px) {
+
+} */
 
 /* END CONTACT FORM PAGE */
