@@ -4,6 +4,7 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Visual */
+  /* Tom commented out background image because too similar to other elements in color */
   /* background-image: url("../imgs/ignasi_pattern_s.png");*/
   /* set background color for all html files to match printed reference pages */
   background-color: rgb(170, 170, 170);
@@ -55,14 +56,18 @@ hr {
   font-size: 24px;
   font-weight: bold;
   color: #fff;
+  /* Tom added letter spacing, was not set, now set to 2 pixels */
+  letter-spacing: 2px;
 
   /* Visual */
   background: #4aaaa5;
-  /*added padding around all four sides of logo to increase space around logo content*/
+  /* Tom added padding around all four sides of logo to increase space around logo content*/
   padding-top: 20px;
   padding-right: 30px;
   padding-bottom: 20px;
   padding-left: 30px;
+
+  /* Tom and Arron set margin to zero so logo will go full width */
   margin: 0;
 }
 
@@ -76,12 +81,12 @@ hr {
   border: none;
 }
 
-/* border right adds vertical bar between nav items */
+/* Tom set border right to add vertical bar between nav items */
 .navbar-nav > li {
   border-right: 1px dotted gray;
 }
 
-/* removes right border for last list item in navbar */
+/* Tom removed right border for last list item in navbar */
 .navbar-nav > li:last-child {
   border: none;
 }
@@ -90,7 +95,7 @@ hr {
   .navbar-header {
     background-color: #4aaaa5;
   }
-}
+
 /* END NAV */
 
 
@@ -222,20 +227,32 @@ hr {
   }
   #logo {
     width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    /* Tom added centered text alignment and wider letter spacing to logo */
+    text-align: center;
   }
+
   .navbar {
     padding: 0;
-
-
   }
+  /* Tom hid burger menu at width 640px
+   .navbar-toggler-icon { 
+    display: none;
+  } */
+
+  .navbar-nav {
+    align-items: flex-end;
+  }
+
   #nav-container{
     margin-left: 0;
   }
   .container {
-    max-width: 100%;
+    max-width: 100%; 
   }
-}
 
+}
 
 /* @media only screen and (max-width: 767px) {
 
