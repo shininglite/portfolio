@@ -33,7 +33,7 @@ main {
 .block-header {
   /* Typography */
   color: #4aaaa5;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: bold;
 }
 /* to correctly display horizontal rule (hr) added this style */
@@ -50,7 +50,7 @@ hr {
 
 /* NAV START */
 #logo {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Typography */
   font-size: 24px;
@@ -67,7 +67,7 @@ hr {
   padding-bottom: 20px;
   padding-left: 30px;
 
-  /* Tom and Arron set margin to zero so logo will go full width */
+  /* Tom set margin to zero so logo will go full width */
   margin: 0;
 }
 

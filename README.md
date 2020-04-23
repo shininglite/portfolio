@@ -13,13 +13,13 @@ My portfolio is at https://shininglite.github.io/portfolio
 You can view the GitHub project at https://github.com/shininglite/portfolio/.
 
 ### Viewing the Site
-View the site using various devices, or on a large device such as a laptop or desktop, narrow the width of the window to see how it maintains functionality and aesthetics as the window narrows.
+View the site using various devices. On a large device such as a laptop or desktop, you can narrow the width of the window to see how it maintains functionality and aesthetics as the window narrows.
 
 ### Built Using
 - Bootstrap 4, a Twitter-created, open-source, web development framework.
 - Visual Studio Code, a multi-platform (Mac, Windows, Linux) Integrated Development Environment.
 - HTML5 and CSS3
-- Google Chrome
+- Google Chrome Web Browser
 
 ### Versioning
 I used GitHub for version control and management.
@@ -27,5 +27,3 @@ I used GitHub for version control and management.
 ### Authors
 Thomas van Deusen
 
-### Acknowledgments
-Thanks to University of Minnesota Boot Camp teacher, teaching assistants, and classmates for their support and inspiration.
