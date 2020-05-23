@@ -1,7 +1,7 @@
 ## Portfolio of Thomas van Deusen
 This project demonstrates a responsive website. This means that it maintains functionality and design-aesthetic appeal, regardless of screen width, on any modern browser.
 
-It is comprised of three web pages: About Me, Portfolio, and Contact. Each web page has a responsive navigation bar that displays the same content: A logo (my name), and links to the other two pages.
+It is comprised of three web pages: About, Portfolio, and Contact. Each web page has a responsive navigation bar that displays the same content: A logo (my name), and links to the other two pages.
 
 The portfolio combines Bootstrap 4 framework styles with an external style sheet.
 
